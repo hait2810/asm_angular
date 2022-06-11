@@ -1,0 +1,38 @@
+.content-work_detail {
+    width: 681px;
+    margin: 0 auto !important;
+}
+.content-work_detail .title {
+    font-size: 34px;
+    width: 506px;
+}
+.content-work_detail ,.date , .logo {
+    margin: 29px 0;
+}
+.content-work_detail .date-category .date {
+    background-color: #FF7C7C;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px;
+    margin-right: 25px;
+    display: inline-block;
+    border-radius: 16px;
+}
+.content-work_detail .desc1 {
+    margin: 27px 0;
+}
+.content-work_detail .logo2 {
+    margin: 20px 0 40px 0;
+}
+@media screen and (max-width: 374.9px) {
+    .container {
+        width: 375px !important;
+    } 
+    .content-work_detail {
+         width: 339px !important;
+    }
+    .title {
+        width: 339px !important;
+    }
+}

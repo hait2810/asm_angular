@@ -1,0 +1,280 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Heebo', sans-serif;
+}
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+.container {
+    width: 855px;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.top-nav ul {
+    display: flex;    
+    justify-content: center;
+}
+.top-nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+.top-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+.infomation {
+    display: grid;
+    grid-template-columns: 506px auto;
+    justify-content: space-between;
+}
+.infomation {
+    margin-top: 150px;
+}
+.download-cv {
+     background-color: #FF6464;
+     padding: 10px 20px;
+     border: none;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 500;
+     border-radius: 2px;
+     cursor: pointer;
+
+}
+.infomation .name, .job-position {
+    font-size: 44px;
+    color: #21243D;
+}
+.infomation .desc {
+    margin: 40px 0;
+    color: #21243D;
+    font-size: 16px;
+}
+.recent-posts {
+    width: 100%;
+    background-color: #EDF7FA;
+    padding: 28px 0;
+    margin-top: 75px;
+}
+.posts>div {
+  display: flex;
+  justify-content: space-between;
+}
+.view-all a {
+  text-decoration: none;
+  color: #00A8CC;
+  font-size: 16px;
+}
+.title-post {
+   font-size: 22px;
+}
+.post {
+  background-color: #fff;
+  padding: 25px;
+  margin: 25px 0;
+  width: 418px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.post .heading-content {
+    font-size: 26px;
+}
+.post .date_category {
+  margin: 22px 0 16px 0;
+}
+.featured-works {
+  padding: 35px 0;
+}
+.post .date, .category {
+  font-size: 18px;
+  color: #21243D;
+}
+.post .date {
+  border-right: 1px solid #000;
+  padding-right: 23px;
+}
+.post .category {
+  padding-left: 23px;
+}
+.post .desc {
+  font-size: 16px;
+}
+.post a {
+  text-decoration: none;
+  color: #21243D;
+}
+.work-title {
+  font-size: 22px;
+}
+.work {
+  display: grid;
+  grid-template-columns: 246px auto;
+  grid-gap: 18px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+.list-works .text-heading {
+  font-size: 30px;
+}
+.list-works .date {
+  font-size: 18px;
+}
+.list-works  .category{
+  font-size: 20px;
+}
+.list-works .text-desc {
+  font-size: 16px;
+}
+.work .logo {
+  width: 100%;
+}
+.work .date_category {
+  margin: 19px 0;
+}
+.work .date{
+  background-color: #142850;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 16px;
+  padding: 2px 10px;
+  margin-right: 25px;
+}
+.list-works .text-heading a {
+    text-decoration: none;
+    color: #000;
+}
+.list-icon {
+  display: flex;
+  justify-content: center;
+}
+.list-icon img {
+    padding: 0 16px;
+}
+.license {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 28px;
+}
+.top-nav .icon {
+  display: none;
+}
+@media screen and (max-width: 374.9px){
+  .top-nav li {
+    display: none;
+    
+  }
+  .top-navresponsive a {
+      font-weight: bold !important;
+  }
+  .top-nav .icon {
+    display: block;
+  }
+
+  .list-post {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .container {
+    width: 354px !important;
+   
+  }
+  .recent-posts {
+    width: 375px !important;
+  }
+  .title-post {
+    width: 354px !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .post {
+    width: 354px !important;
+    margin: 0 auto;
+  }
+ 
+  .recent-posts .view-all {
+    display: none;
+  }
+  
+ .infomation {
+   width: 375px;
+   display: flex;
+   margin-top: 40px !important;
+   flex-direction: column;
+   text-align: center;
+
+ }
+ .about {
+   order: 2;
+ }
+ .avatar {
+   order: 1;
+ }
+ .avatar img {
+   width: 174px;
+   margin: 0 auto;
+ }
+ .about .name, .about .job-position {
+   font-size: 32px;
+ }
+ .work {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+ }
+}
+
+.add-color {
+  color: #FF6464 !important;
+}

@@ -1,0 +1,50 @@
+
+
+.blog .main-content {
+    font-size: 30px;
+}
+
+.content-blog .title-blog {
+    margin-bottom: 6px;
+}
+.date-category span {
+    font-size: 20px;
+}
+.date-category .desc-blog {
+    font-size: 16px;
+}
+.content-blog {
+    width: 680px;
+    margin: 100px auto 120px auto;
+}
+.list-blogs .blog{
+     border-bottom: 1px solid #E0E0E0;
+     padding-bottom: 25px;
+     padding-top: 33px;
+}
+.list-blogs .category {
+    color: #8695A4;
+    border-left: 1px solid #000;
+    padding-left: 26px;
+}
+.list-blogs .date {
+    padding-right: 23px;
+}
+a {
+    color: #000;
+}
+@media screen  and (max-width: 374.9px ){
+        .container {
+            width: 375px !important;
+        }
+        .content-blog {
+            width: 339px !important;
+            margin: 0 auto;
+        }
+        .blog {
+            border: none !important;
+        }
+        footer {
+           width: 339px;
+        }
+}
