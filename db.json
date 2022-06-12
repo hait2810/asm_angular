@@ -1,0 +1,21 @@
+{
+  "posts": [],
+  "categoriesPosts": [],
+  "works": [],
+  "categoriesWorks": [
+    {
+      "name": "Commerce",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Hai",
+      "img": "./assets/images/avatar/Ellipse%201.jpg",
+      "position": "Front-End Developer",
+      "about": "You're never too young to dream big! I love to make people laugh&smile. For you, for me and more.",
+      "cv": "https://ibb.co/CnWjrtC"
+    }
+  ]
+}

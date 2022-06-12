@@ -2,17 +2,15 @@
     <div class="container">
       <div class="infomation">
         <div class="about">
-          <h1 class="name">Hi, I am Hai,</h1>
-          <h1 class="job-position">Front-End Developer</h1>
+          <h1 class="name">Hi, I am {{about.name}},</h1>
+          <h1 class="job-position">{{about.position}}</h1>
           <p class="desc">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-            amet sint. Velit officia consequat duis enim velit mollit.
-            Exercitation veniam consequat sunt nostrud amet.
+            {{about.about}}
           </p>
-          <button class="download-cv">Download Resume</button>
+          <button (click)="downloadcv(about.cv)" class="download-cv">Download Resume</button>
         </div>
         <div class="avatar">
-          <img src="./assets/images/avatar/Ellipse 1.jpg" alt="" />
+          <img src="{{about.img}}" alt="" />
         </div>
       </div>
     </div>
