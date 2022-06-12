@@ -1,0 +1,31 @@
+<app-headeradmin></app-headeradmin>
+<div class="container">
+    <h2>Danh sách Works</h2>
+               
+    <table class="table">
+      <thead>
+        <tr>
+            <th>#</th>
+          <th>Name</th>
+          <th>Img</th>
+          <th>Short desc</th>
+          <th>Sửa</th>
+          <th>Xoá</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let work of works; let i = index">
+            <td>{{i+1}}</td>
+          <td>{{work.name}}</td>
+          <td><img src="{{work.img}}" width="80" alt=""></td>
+          <td>{{work.shortdesc}}</td>
+          <td><a href="">Sửa</a></td>
+          <td><button (click)="onDel(work.id)">Xoá</button></td>
+         
+
+        </tr>
+      
+      </tbody>
+    </table>
+  </div>

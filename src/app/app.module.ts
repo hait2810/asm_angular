@@ -15,7 +15,14 @@ import { FormsModule } from '@angular/forms';
 import { CategoryWorkComponent } from './admin/category-work/category-work.component';
 import { AddCategoryWorkComponent } from './admin/add-category-work/add-category-work.component';
 import { AddWorkComponent } from './admin/add-work/add-work.component';
-import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+
+import { AddCategoryBlogComponent } from './admin/add-category-blog/add-category-blog.component';
+import { AddpostComponent } from './admin/addpost/addpost.component';
+import { HeaderadminComponent } from './admin/headeradmin/headeradmin.component';
+import { ListWorkComponent } from './admin/list-work/list-work.component';
+
+
+
 
 
 
@@ -35,6 +42,12 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
     CategoryWorkComponent,
     AddCategoryWorkComponent,
     AddWorkComponent,
+    AddCategoryBlogComponent,
+    AddpostComponent,
+    HeaderadminComponent,
+    ListWorkComponent,
+ 
+  
     
   ],
   imports: [
@@ -42,7 +55,7 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    CKEditorModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

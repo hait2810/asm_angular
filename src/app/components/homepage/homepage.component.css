@@ -209,6 +209,9 @@ ul li {
 .top-nav .icon {
   display: none;
 }
+.work img {
+    height: 200px;
+}
 @media screen and (max-width: 374.9px){
   .top-nav li {
     display: none;
@@ -242,6 +245,7 @@ ul li {
     width: 354px !important;
     margin: 0 auto;
   }
+  
  
   .recent-posts .view-all {
     display: none;

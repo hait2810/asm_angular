@@ -1,72 +1,31 @@
+<app-header></app-header>
 <div class="container">
   <div class="content-work">
       <h2 class="title-work">
           Work
       </h2>
       <div class="list-works">
-          <div class="work">
+          <div *ngFor="let work of works" class="work">
               <img
-                src="./assets/images/img-works/Rectangle 30.jpg"
+                src="{{work.img}}"
                 alt=""
                 class="logo"
               />
               <div class="text-content">
                 <h3 class="text-heading">
-                  <a href=""> Designing Dashboards</a>
+                  <a href=""> {{work.name}}</a>
                 </h3>
                 <div class="date_category">
-                  <span class="date">2020</span>
-                  <span class="category">Dashboard</span>
+                  <span class="date">{{work.createAt}}</span>
+                  <span class="category">{{work.categoryWork.name}}</span>
                 </div>
                 <p class="text-desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
+                  {{work.desc}}
                 </p>
               </div>
             </div>
-            <div class="work">
-              <img
-                src="./assets/images/img-works/Rectangle 32.jpg"
-                alt=""
-                class="logo"
-              />
-              <div class="text-content">
-                <h3 class="text-heading">
-                  <a href=""> Designing Dashboards</a>
-                </h3>
-                <div class="date_category">
-                  <span class="date">2020</span>
-                  <span class="category">Dashboard</span>
-                </div>
-                <p class="text-desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-              </div>
-            </div>
-            <div class="work">
-              <img
-                src="./assets/images/img-works/Rectangle 34.jpg"
-                alt=""
-                class="logo"
-              />
-              <div class="text-content">
-                <h3 class="text-heading">
-                  <a href=""> Designing Dashboards</a>
-                </h3>
-                <div class="date_category">
-                  <span class="date">2020</span>
-                  <span class="category">Dashboard</span>
-                </div>
-                <p class="text-desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-              </div>
-            </div>
+           
+          
 
       </div>
   </div>
