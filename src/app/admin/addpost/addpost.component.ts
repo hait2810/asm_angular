@@ -7,6 +7,14 @@ import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
   styleUrls: ['./addpost.component.css']
 })
 export class AddpostComponent implements OnInit {
+  id:any
+  linkimg: any;
+  public files: any;
+  CLOUDINARY_API = 'https://api.cloudinary.com/v1_1/hait-10/image/upload';
+  CLOUDINARY_PRESET = 'assjshihi';
+  onFileChanged(event: any) {
+    this.files = event.target.files[0];
+  }
   public onReady( editor:any ) {
     editor.ui.getEditableElement().parentElement.insertBefore(
         editor.ui.view.toolbar.element,
@@ -20,6 +28,7 @@ export class AddpostComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.files = []
     this.getCategorys();
   }
   post:any = {
@@ -32,15 +41,25 @@ export class AddpostComponent implements OnInit {
       
     })
   }
+  
   onAddPost() {
+    const formData = new FormData();
+    formData.append('file', this.files, this.files.name);
+    formData.append('upload_preset', this.CLOUDINARY_PRESET);
+    
     const d = new Date().getFullYear();
-    const project = {
-      ...this.post, createAt: d
-    }
-    this.http.post("http://localhost:3001/posts", project).subscribe(() => {
-      console.log("hj");
-      
+    
+    this.http.post(this.CLOUDINARY_API, formData).subscribe((data) => {
+      this.linkimg = data
+      const project = {
+        ...this.post, createAt: d, img: this.linkimg.url
+      }
+      this.http.post("http://localhost:3001/posts", project).subscribe(() => {
+        console.log("hj");
+        
+      })
     })
+   
   }
 
 }

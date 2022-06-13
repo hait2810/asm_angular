@@ -12,7 +12,7 @@
       </div>
       <div class="form-group">
         <label for="usr">Img:</label>
-        <input type="text" [(ngModel)]="project.img" name="img" class="form-control" id="usr">
+        <input type="file" (change)="onFileChanged($event)" [(ngModel)]="project.img" name="img" class="form-control" id="usr">
       </div>
       <div class="form-group">
         <label for="usr">short-desc:</label>

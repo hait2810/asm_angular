@@ -18,7 +18,7 @@
         <tr *ngFor="let work of works; let i = index">
             <td>{{i+1}}</td>
           <td>{{work.name}}</td>
-          <td><img src="{{work.img}}" width="80" alt=""></td>
+          <td><img src="{{work.img}}" height="50" width="80" alt=""></td>
           <td>{{work.shortdesc}}</td>
           <td><a class="btn-success" routerLink="/admin/works/{{work.id}}/edit">Sửa</a></td>
           <td><button class="btn-success" (click)="onDel(work.id)">Xoá</button></td>
