@@ -1,8 +1,8 @@
 <app-headeradmin></app-headeradmin>
 <div class="container">
-    <h2>Thêm Project</h2>
+    <h2>Edit Project</h2>
    
-    <form (ngSubmit)="onAddWork()">
+    <form (ngSubmit)="onEditWork()">
       <div class="form-group">
         <ckeditor [editor]="Editor" [(ngModel)]="project.html"  (ready)="onReady($event)" name="html" data="Hello, world!"></ckeditor>
       </div>

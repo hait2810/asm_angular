@@ -15,11 +15,16 @@ import { FormsModule } from '@angular/forms';
 import { CategoryWorkComponent } from './admin/category-work/category-work.component';
 import { AddCategoryWorkComponent } from './admin/add-category-work/add-category-work.component';
 import { AddWorkComponent } from './admin/add-work/add-work.component';
-
 import { AddCategoryBlogComponent } from './admin/add-category-blog/add-category-blog.component';
 import { AddpostComponent } from './admin/addpost/addpost.component';
 import { HeaderadminComponent } from './admin/headeradmin/headeradmin.component';
 import { ListWorkComponent } from './admin/list-work/list-work.component';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
+import { EditWorkComponent } from './admin/edit-work/edit-work.component';
+import { EditPostComponent } from './admin/edit-post/edit-post.component';
+import { ListPostComponent } from './admin/list-post/list-post.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
+
 
 
 
@@ -46,6 +51,11 @@ import { ListWorkComponent } from './admin/list-work/list-work.component';
     AddpostComponent,
     HeaderadminComponent,
     ListWorkComponent,
+    EditWorkComponent,
+    EditPostComponent,
+    ListPostComponent,
+    PostDetailComponent,
+    
  
   
     
@@ -55,6 +65,8 @@ import { ListWorkComponent } from './admin/list-work/list-work.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    CKEditorModule,
+    
     
   ],
   providers: [],

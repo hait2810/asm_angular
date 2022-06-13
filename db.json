@@ -1,139 +1,22 @@
 {
   "posts": [
     {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1654868749654-109ea24d18df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
+      "title": "Web5 là gì?",
+      "img": "https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png",
+      "desc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
       "categoryPostId": "1",
+      "html": "<h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey's Block (trước đây là Square).</p><p><strong>Cựu Giám đốc điều hành Twitter – Jack Dorsey đã công bố một nền tảng mới trên Twitter có tên là ‘Web5’, là sự kết hợp của Web3 và Web 2.0, được xây dựng trên chuỗi khối Bitcoin. Nền tảng này hứa hẹn sẽ khắc phục sự cố bảo mật dữ liệu cá nhân. “Chúng tôi đấu tranh để bảo mật dữ liệu cá nhân với hàng trăm tài khoản và mật khẩu mà chúng tôi không thể nhớ. Trên web ngày nay, danh tính và dữ liệu cá nhân đã trở thành tài sản của các bên thứ ba,”, công ty đã thô ng báo trên Website chính thức.</strong></p><p>Vào ngày 10 tháng 6 năm 2022, đơn vị kinh doanh TBD của <a href=\"https://twitter.com/jack?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">Jack Dorsey</a> &nbsp;một công ty con của Block Inc., và là – CEO của Twitter thông báo họ đã bắt tay vào hành trình xây dựng “Web5”. Sau những lời chỉ trích rất công khai của Dorsey đối với Web3 và ‘những thiếu sót của nó, thật hợp lý khi doanh nhân lấy Bitcoin làm trung tâm lại bắt đầu xây dựng một web phi tập trung thực sự.Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.</p><h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey’s Block (trước đây là Square). Nền tảng mang lại danh tính và lưu trữ dữ liệu phi tập trung cho các ứng dụng. “Nó cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng thú vị trong khi trả lại quyền sở hữu dữ liệu và danh tính cho các cá nhân” – theo công ty.</p><p>&nbsp;</p><p>TBH giải thích cách Web5 muốn các cá nhân có khả năng “sở hữu dữ liệu của họ”. Ví dụ: giả sử AnonyViet nắm giữ một “ví kỹ thuật số” quản lý an toàn danh tính, dữ liệu và quyền của mình đối với các ứng dụng và kết nối bên ngoài. AnonyViet sử dụng ví của mình để đăng nhập vào một ứng dụng mạng xã hội phi tập trung mới. Tuy nhiên, vì AnonyViet đã kết nối với ứng dụng bằng danh tính phi tập trung của mình nên cô ấy không cần tạo hồ sơ và tất cả các kết nối, mối quan hệ và bài đăng mà AnonyViet tạo thông qua ứng dụng đều được lưu trữ với mình, trong nút web phi tập trung. Sử dụng Web5, AnonyViet có thể chuyển đổi ứng dụng bất cứ khi nào mà mình muốn, mang theo cá tính xã hội của cô ấy.</p><p>Trong một trường hợp khác, Bob, một người yêu âm nhạc và ghét bị giới hạn dữ liệu của mình cho một nhà cung cấp duy nhất. Nó buộc anh ta phải lặp đi lặp lại các danh sách phát và bài hát của mình trên các ứng dụng âm nhạc khác nhau. Rất may, có một cách giải quyết cho trường hợp này: Bob có thể giữ dữ liệu này trong nút web phi tập trung của mình. Bằng cách này, Bob có thể cấp cho bất kỳ ứng dụng âm nhạc nào quyền truy cập vào cài đặt và tùy chọn của anh ấy, cho phép anh ấy có trải nghiệm âm nhạc được cá nhân hóa của mình ở bất cứ đâu anh ấy chọn. Do đó, Web5 sẽ cung cấp cho người dùng quyền sở hữu dữ liệu của họ.</p><p>Được giới thiệu trong Google Tài liệu do Dorsey xuất bản, <strong>Web5</strong> là phép tính của từ <strong>Web 2 + Web 3 = Web 5</strong>. <a href=\"https://anonyviet.com/?s=Web+3\">Web3</a> đã đạt được động lực lớn vào năm 2021 với mục tiêu “mã hóa mọi thứ” và kết nối tài sản với các blockchain. Web5 có một cách tiếp cận khác, chỉ dựa vào một blockchain, Bitcoin và chỉ cho một trường hợp sử dụng duy nhất: identity – định danh, danh tính.</p><h2>Web5 hoạt động như thế nào?</h2><p>Tầm nhìn Web5 của TBD bao gồm một số thành phần phần mềm, khi kết hợp với nhau, cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng phong phú đồng thời cho phép lưu trữ dữ liệu và nhận dạng phi tập trung trong các ứng dụng.</p><p>&nbsp;</p><p>Tất cả đều dựa trên giao thức Sidetree và ION không yêu cầu sử dụng mã thông báo, trình xác thực đáng tin cậy hoặc cơ chế đồng thuận bổ sung để hoạt động.</p><p>Thành phần đầu tiên là Web Node phi tập trung – <strong>Decentralized Web Node (DWN)</strong> .</p><p>DWN được mô tả là xây dựng kho dữ liệu giống như lưới cho phép một thực thể vận hành nhiều nút đồng bộ với cùng một trạng thái trên nhau.</p><p>DWN của Web5 sẽ được sử dụng để định vị dữ liệu được liên kết với một Định danh phân cấp – <strong>DID (Decentralized Identifier)</strong></p><p>DID là số nhận dạng vĩnh viễn duy nhất trên toàn cầu thường được sản xuất và đăng ký bằng mật mã và không yêu cầu cơ quan đăng ký tập trung.</p><p><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/web5-la-gi.png\" alt=\"web5 là gì\"><br>Thành phần quan trọng tiếp theo là Dịch vụ Nhận dạng Chủ quyền – Self-Sovereign Identity Service (SSIS) .</p><p>&nbsp;</p><p>Dịch vụ nhận dạng tự chủ (SSIS) là một dịch vụ quản lý danh tính phi tập trung cho phép các cá nhân và tổ chức kiểm soát danh tính kỹ thuật số của riêng họ. SSIS được xây dựng trên nền tảng blockchain và sử dụng các hợp đồng thông minh để cung cấp một cách bảo mật, phi tập trung và chống giả mạo để quản lý danh tính kỹ thuật số.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\" alt=\"Self-Sovereign Identity Service ssis web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg 770w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-300x281.jpeg 300w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-768x718.jpeg 768w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-750x701.jpeg 750w\" sizes=\"100vw\" width=\"770\"></a></p><p>Thành phần chính thứ ba là <strong>Self-Sovereign Identity </strong>SDK – nhận dạng có chủ quyền .</p><p><strong>Self-Sovereign Identity </strong>SDK&nbsp; là một bộ công cụ cho phép các nhà phát triển dễ dàng xây dựng các ứng dụng sử dụng các nguyên tắc nhận dạng tự có chủ quyền.</p><p>Nó được thiết kế để hoạt động với bất kỳ hệ thống quản lý danh tính nào và cung cấp một bộ công cụ và API để giúp các nhà phát triển tạo các ứng dụng cho phép người dùng kiểm soát dữ liệu của riêng họ.</p><h2>Từ PWA đến DWA</h2><p>PWA là Ứng dụng web cấp tiến (Progressive Web Apps) và bạn sử dụng chúng hàng ngày (Pinterest, Uber, Spotify). Chúng là những ứng dụng web sử dụng công nghệ web hiện đại để cung cấp trải nghiệm người dùng tương tự như trải nghiệm của ứng dụng gốc. PWA được thiết kế để đáp ứng 3 yếu tố: nhanh, đáng tin cậy và hấp dẫn.</p><p>Sử dụng các thành phần Web5 nói trên, Jack Dorsey đang tạo cơ sở hạ tầng để tạo DWA (Ứng dụng web phi tập trung).</p><p>Cấu trúc này sẽ cho phép các nhà phát triển tạo ra các ứng dụng có danh tính phi tập trung và khả năng lưu trữ dữ liệu, tất cả đều cung cấp cho người dùng toàn quyền kiểm soát thông tin cá nhân của mình.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\" alt=\"PWA DWA web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png 732w, https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5-300x148.png 300w\" sizes=\"100vw\" width=\"732\"></a></p><p>Ngay sau khi phát hành tài liệu Web5 trên Twitter, Jack đã mạnh dạn tuyên bố rằng đây “có thể sẽ là đóng góp quan trọng nhất của chúng tôi cho internet.”</p><p>&nbsp;</p><p>Tất nhiên chỉ có thời gian mới trả lời được liệu Web5 có bắt kịp hay không, nhưng điều này chắc chắn sẽ làm rung chuyển hàng tỷ người sẵn sàng đầu tư vào các ứng dụng Web3 của các ứng dụng như a16z và các VC khác.</p>",
       "createAt": 2022,
       "id": 1
     },
     {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1647630377669-5323a1a55943?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
+      "title": "TOP Game PC hay nhất 2022",
+      "img": "https://anonyviet.com/wp-content/uploads/2022/06/Warhammer-40.000.jpg",
+      "desc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
       "categoryPostId": "1",
+      "html": "<h2><strong>TOP Game PC hay nhất 2022</strong></h2><p><strong>Trong năm 2022 có một số Game PC mới ra đời và một số game cũ vẫn còn rất nhiều người chơi. Nếu bạn đang tìm các Game PC hay nhất 2022 thì đừng bỏ qua TOP các Game PC hay được liệt kê dưới đây:</strong></p><h2>Warhammer 40.000: Chaos Gate – Daemonhunters</h2><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/Warhammer-40.000.jpg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/Warhammer-40.000.jpg\" alt=\"Warhammer 40.000: Chaos Gate - Daemonhunters TOP Game PC hay nhất 2022\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/Warhammer-40.000.jpg 540w, https://anonyviet.com/wp-content/uploads/2022/06/Warhammer-40.000-300x169.jpg 300w\" sizes=\"100vw\" width=\"540\"></a></p><p>Có rất nhiều Game PC mang tên Warhammer, và trong khi nhượng quyền thương mại có thể nổi bật như Dawn of War 1 &amp; 2 và Space Marine có thể xem là Game PC hay nhất 2022, thì cũng có những thứ hoàn toàn rác như Dawn of War 3 và Fire Warrior.</p><p>Có rất nhiều dự đoán xung quanh Warhammer 40.000: Chaos Gate – Daemonhunters có tựa đề khó xử, nhưng liệu nó có phù hợp với sự cường điệu trước khi phát hành?&nbsp;Vâng, vâng, nó có.</p><p>Deamonhunters xứng đáng có một vị trí trong top 5 game mang tên Warhammer.&nbsp;Đã có những tựa game chiến thuật theo lượt kiểu XCOM khác được đặt trong vũ trụ này, bao gồm cả Mechanicus xuất sắc, nhưng tựa game mới nhất này là kẻ thách thức cho vị trí đầu bảng.</p><p>Nếu bạn thích siêu trò chơi theo phong cách tung hứng nhiều đĩa của XCOM, thì khá nhiều đảm bảo rằng bạn sẽ thích Daemonhunters. Tuy nhiên, tốc độ nhanh hơn và một số cơ chế của nó làm cho các trận chiến gần với Gears Tactics được đánh giá thấp hơn . Một điểm khác biệt lớn so với hầu hết các trò chơi của Game này là không có khả năng vô tình bỏ lỡ một cú sút; bạn biết trước mình sẽ hay không trúng một thứ gì đó, với các yếu tố như khoảng cách và vỏ bọc xác định thiệt hại.</p><p>Nhiều yếu tố chiến thuật theo lượt quen thuộc hiện diện: nâng cấp nhân vật của bạn thông qua kinh nghiệm, thời gian phục hồi, nâng cấp, tùy chỉnh hình ảnh, hàng tấn vũ khí, v.v.&nbsp;Nó cũng có một câu chuyện hấp dẫn hơn 50 giờ và thậm chí yêu cầu bạn chơi chính trị giữa các cuộc gặp gỡ.&nbsp;Một số trong những trận chiến này có vẻ như là những tình huống bất phân thắng bại cho đến khi cảm hứng lật ngược tình thế.</p><p>Warhammer 40.000: Chaos Gate – Daemonhunters đang phấn khích, say mê và là một trong những trò chơi hiếm hoi mà bạn sẽ nghĩ đến ngay cả khi bạn không chơi nó.&nbsp;Việc quen thuộc với Warhammer 40K rất hữu ích và đôi khi có thể khiến bạn khó chịu ngay cả ở chế độ bình thường, nhưng đừng nhầm, đây là một trong những trò chơi chiến thuật theo lượt hay nhất trong nhiều năm.</p><p>Tạo ra một thứ gì đó ngang hàng với bộ ba Dark Souls và Sekiro: Shadows Die Twice luôn là một thách thức và có rất nhiều kỳ vọng, đặc biệt là với sự tham gia của George RR Martin. Tất nhiên, ngày nay, Elden Ring không chỉ được ca ngợi là Game PC hay nhất 2022 mà còn là một trong những danh hiệu vĩ đại nhất mọi thời đại.</p><p>Elden Ring lấy các yếu tố tốt nhất của các trò chơi nổi tiếng nhất của nó trong vài năm qua, bao gồm cả Bloodborne chỉ dành cho PlayStation (hiện tại) đáng buồn và kết hợp với một số tác phẩm của Martin để tạo ra một game nhập vai hành động gần như hoàn hảo và là một trong những trò chơi hay nhất trò chơi được xếp hạng từ trước đến nay – nó chắc chắn sẽ giành được vô số giải thưởng trò chơi của năm, đặc biệt là bây giờ Starfield đã bị trì hoãn.</p><p>Cũng như với Dark Souls, có rất nhiều thứ trong Elden Ring mà người chơi phải tự mình khám phá trong môi trường khổng lồ, lộng lẫy. Hãy nhớ rằng, nó không nắm chắc tay bạn theo cách mà các trò chơi thế giới mở khác làm, nhưng bạn được tự do khám phá mọi nơi và theo tốc độ của riêng mình – mong đợi sẽ bị tàn sát nhiều khi bạn phải đối mặt với nhiều loại những con thú khó hơn rất nhiều so với nhân vật ban đầu của bạn.</p><p>Khó khăn đó đã từng khiến nhiều người bỏ qua các trò chơi FromSoftware trước đây trong quá khứ.&nbsp;Elden Ring không dễ dàng hơn, nhưng bạn có thể đơn giản đi bộ khỏi kẻ thù hoặc khu vực đang gây rắc rối cho bạn, lên cấp, lấy một số thiết bị mới và thử lại.</p><p>Rõ ràng là người hâm mộ Dark Souls sẽ yêu thích Elden Ring.&nbsp;Nhiều yếu tố giống nhau ở đây, từ các phím tắt thông minh đến các trận chiến có nhịp độ chậm hơn (tương đối).&nbsp;Nhưng cũng giống như các game khác của nhà phát triển, không phải ai cũng có đủ kiên nhẫn và thời gian để chơi Git Gud.&nbsp;Rất nhiều người sẽ thấy Elden Ring quá bực bội, cho dù nó có cung cấp bao nhiêu đi nữa.</p><p>Nhưng với rất nhiều nội dung tuyệt vời để xem và trải nghiệm, bao gồm chơi co-op, PvP và rất nhiều bản mod, Elden Ring xứng đáng được khen ngợi là một trong những trò chơi thế giới mở hay nhất trong lịch sử và là thứ chắc chắn đáng để gắn bó, không có vấn đề bao nhiêu lần bạn chết.</p><p>&nbsp;</p><p>Download:&nbsp;<a href=\"https://anonyviet.com/tieptucdidentrangmoi/?url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F1245620%2FELDEN_RING%2F\">Steam</a></p><h2>Forza Horizon 5</h2><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/Forza-Horizon-5.jpg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/Forza-Horizon-5.jpg\" alt=\"Forza Horizon 5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/Forza-Horizon-5.jpg 640w, https://anonyviet.com/wp-content/uploads/2022/06/Forza-Horizon-5-300x169.jpg 300w\" sizes=\"100vw\" width=\"640\"></a></p><p>Mục mới nhất trong seri Game Forza có thể cách đây vài tháng, nhưng đây vẫn là một trò chơi mà bạn có thể chọn chỉ trong mười phút hoặc chơi từ lúc hoàng hôn đến lúc mặt trời mọc – ngay cả khi bạn bình thường không phải là người yêu thích các trò chơi đua xe. Nội dung mới liên tục giúp mọi thứ luôn mới mẻ: mình hiện đang xem Phần 8 và Phần 9 sắp ra mắt với các sự kiện, ô tô và thử thách hoàn toàn mới.</p><p>Yếu tố hấp dẫn nhất của Forza, ngoài số lượng xe ít ỏi, ngoại hình đẹp và lái xe vui nhộn, là còn rất nhiều việc phải làm.&nbsp;Nó không chỉ di chuyển từ A đến B nhanh hơn so với những người khác: bản đồ chứa đầy các hoạt động khác nhau, nhiều hoạt động do người chơi tạo, với nhiều hoạt động khác được thêm vào mọi lúc.</p><p>Cải thiện Forza Horizon 4 không bao giờ là một nhiệm vụ dễ dàng, nhưng phần này quản lý nó, một phần bằng cách chuyển hành động từ Vương quốc Anh sang Mexico trong khu vực vui chơi lớn nhất và đa dạng nhất mà loạt phim từng thấy, có các núi lửa đang hoạt động, rừng rậm, bãi biển, thành phố, v.v.&nbsp;Các tùy chọn tùy chỉnh cho ô tô của bạn rất phong phú và các công cụ đồ họa và xây dựng thật tuyệt vời.&nbsp;Đây cũng là một trong những tựa game mà những người thường tránh xa các yếu tố nhiều người chơi sẽ thích chơi với hoặc cùng với những người khác.</p><p>Có một cảm giác ‘chỉ một cuộc đua nữa’ đối với Forza Horizon 5 cạnh tranh với sự ép buộc ‘chỉ một lượt nữa’ được tìm thấy trong các trò chơi như Civilization.&nbsp;Bạn có thể ngồi dự định trong nửa giờ, nhưng hai ngày sẽ trôi qua trong chớp mắt, khiến bạn thất nghiệp và độc thân.&nbsp;Trò chơi này có thể nuốt chửng cuộc sống của bạn.</p><p>Lỗi thực sự duy nhất mà bạn có thể nhận ra từ Forza 5 là nó vẫn giống như Game trước đó của nó, mặc dù có nhiều nội dung bổ sung, nhưng tại sao lại thay đổi công thức chiến thắng? Đây là Forza Horizon hay nhất và là một trong những trò chơi lái xe hay nhất từng được tạo ra.</p><p>Download:&nbsp;<a href=\"https://anonyviet.com/tieptucdidentrangmoi/?url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F1551360%2FForza_Horizon_5%2F\">Steam</a>&nbsp;,&nbsp;<a href=\"https://anonyviet.com/tieptucdidentrangmoi/?url=https%3A%2F%2Fwww.xbox.com%2Fen-US%2Fgames%2Fstore%2Fforza-horizon-5%2F9NNX1VVR3KNQ\">Microsoft Store</a>&nbsp;,&nbsp;<a href=\"https://anonyviet.com/tieptucdidentrangmoi/?url=https%3A%2F%2Fwww.xbox.com%2Fen-US%2Fgames%2Fstore%2Fgame-pass%2FCFQ7TTC0K6L8%3Frpid%3D9NBR2VXT87SJ\">Game Pass</a></p><h2>God of War</h2><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/God-of-War-1.jpg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/God-of-War-1.jpg\" alt=\"God of War  game hay 2022\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/God-of-War-1.jpg 602w, https://anonyviet.com/wp-content/uploads/2022/06/God-of-War-1-300x168.jpg 300w\" sizes=\"100vw\" width=\"602\"></a></p><p>God of War đã làm mưa làm gió trên PlayStation 4 – hoặc PlayStation 4 Pro nếu bạn muốn tận hưởng những độ phân giải cao? Có thể mất gần bốn năm để cập bến PC, nhưng đây là sự chờ đợi là xứng đáng.</p>",
       "createAt": 2022,
       "id": 2
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1563996604449-d3835b4270e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 3
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1591394176032-d836e0649244?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 4
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 5
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1561569134-cbf36e72bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 6
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 7
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 8
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 9
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 10
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://3.bp.blogspot.com/-2fevx1sbXj8/WYwwz4I64dI/AAAAAAAAGRQ/1TOiWjiJgUML48vWjx0YXOGIWt8kKlVcwCLcBGAs/s1600/gai-xinh-facebook-mai-trang-nguyen2.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 11
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://3.bp.blogspot.com/-2fevx1sbXj8/WYwwz4I64dI/AAAAAAAAGRQ/1TOiWjiJgUML48vWjx0YXOGIWt8kKlVcwCLcBGAs/s1600/gai-xinh-facebook-mai-trang-nguyen2.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 12
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://3.bp.blogspot.com/-2fevx1sbXj8/WYwwz4I64dI/AAAAAAAAGRQ/1TOiWjiJgUML48vWjx0YXOGIWt8kKlVcwCLcBGAs/s1600/gai-xinh-facebook-mai-trang-nguyen2.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 13
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://3.bp.blogspot.com/-2fevx1sbXj8/WYwwz4I64dI/AAAAAAAAGRQ/1TOiWjiJgUML48vWjx0YXOGIWt8kKlVcwCLcBGAs/s1600/gai-xinh-facebook-mai-trang-nguyen2.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 14
-    },
-    {
-      "title": "Nguyễn Văn Hải",
-      "img": "https://3.bp.blogspot.com/-2fevx1sbXj8/WYwwz4I64dI/AAAAAAAAGRQ/1TOiWjiJgUML48vWjx0YXOGIWt8kKlVcwCLcBGAs/s1600/gai-xinh-facebook-mai-trang-nguyen2.jpg",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryPostId": "1",
-      "createAt": 2022,
-      "id": 15
     }
   ],
   "categoryPosts": [
@@ -145,48 +28,23 @@
   "works": [
     {
       "name": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1561569134-cbf36e72bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
+      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
+      "shortdesc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
+      "desc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
       "categoryWorkId": "1",
+      "html": "<h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey's Block (trước đây là Square).</p><p><strong>Cựu Giám đốc điều hành Twitter – Jack Dorsey đã công bố một nền tảng mới trên Twitter có tên là ‘Web5’, là sự kết hợp của Web3 và Web 2.0, được xây dựng trên chuỗi khối Bitcoin. Nền tảng này hứa hẹn sẽ khắc phục sự cố bảo mật dữ liệu cá nhân. “Chúng tôi đấu tranh để bảo mật dữ liệu cá nhân với hàng trăm tài khoản và mật khẩu mà chúng tôi không thể nhớ. Trên web ngày nay, danh tính và dữ liệu cá nhân đã trở thành tài sản của các bên thứ ba,”, công ty đã thô ng báo trên Website chính thức.</strong></p><p>Vào ngày 10 tháng 6 năm 2022, đơn vị kinh doanh TBD của <a href=\"https://twitter.com/jack?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">Jack Dorsey</a> &nbsp;một công ty con của Block Inc., và là – CEO của Twitter thông báo họ đã bắt tay vào hành trình xây dựng “Web5”. Sau những lời chỉ trích rất công khai của Dorsey đối với Web3 và ‘những thiếu sót của nó, thật hợp lý khi doanh nhân lấy Bitcoin làm trung tâm lại bắt đầu xây dựng một web phi tập trung thực sự.Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.</p><h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey’s Block (trước đây là Square). Nền tảng mang lại danh tính và lưu trữ dữ liệu phi tập trung cho các ứng dụng. “Nó cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng thú vị trong khi trả lại quyền sở hữu dữ liệu và danh tính cho các cá nhân” – theo công ty.</p><p>&nbsp;</p><p>TBH giải thích cách Web5 muốn các cá nhân có khả năng “sở hữu dữ liệu của họ”. Ví dụ: giả sử AnonyViet nắm giữ một “ví kỹ thuật số” quản lý an toàn danh tính, dữ liệu và quyền của mình đối với các ứng dụng và kết nối bên ngoài. AnonyViet sử dụng ví của mình để đăng nhập vào một ứng dụng mạng xã hội phi tập trung mới. Tuy nhiên, vì AnonyViet đã kết nối với ứng dụng bằng danh tính phi tập trung của mình nên cô ấy không cần tạo hồ sơ và tất cả các kết nối, mối quan hệ và bài đăng mà AnonyViet tạo thông qua ứng dụng đều được lưu trữ với mình, trong nút web phi tập trung. Sử dụng Web5, AnonyViet có thể chuyển đổi ứng dụng bất cứ khi nào mà mình muốn, mang theo cá tính xã hội của cô ấy.</p><p>Trong một trường hợp khác, Bob, một người yêu âm nhạc và ghét bị giới hạn dữ liệu của mình cho một nhà cung cấp duy nhất. Nó buộc anh ta phải lặp đi lặp lại các danh sách phát và bài hát của mình trên các ứng dụng âm nhạc khác nhau. Rất may, có một cách giải quyết cho trường hợp này: Bob có thể giữ dữ liệu này trong nút web phi tập trung của mình. Bằng cách này, Bob có thể cấp cho bất kỳ ứng dụng âm nhạc nào quyền truy cập vào cài đặt và tùy chọn của anh ấy, cho phép anh ấy có trải nghiệm âm nhạc được cá nhân hóa của mình ở bất cứ đâu anh ấy chọn. Do đó, Web5 sẽ cung cấp cho người dùng quyền sở hữu dữ liệu của họ.</p><p>Được giới thiệu trong Google Tài liệu do Dorsey xuất bản, <strong>Web5</strong> là phép tính của từ <strong>Web 2 + Web 3 = Web 5</strong>. <a href=\"https://anonyviet.com/?s=Web+3\">Web3</a> đã đạt được động lực lớn vào năm 2021 với mục tiêu “mã hóa mọi thứ” và kết nối tài sản với các blockchain. Web5 có một cách tiếp cận khác, chỉ dựa vào một blockchain, Bitcoin và chỉ cho một trường hợp sử dụng duy nhất: identity – định danh, danh tính.</p><h2>Web5 hoạt động như thế nào?</h2><p>Tầm nhìn Web5 của TBD bao gồm một số thành phần phần mềm, khi kết hợp với nhau, cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng phong phú đồng thời cho phép lưu trữ dữ liệu và nhận dạng phi tập trung trong các ứng dụng.</p><p>&nbsp;</p><p>Tất cả đều dựa trên giao thức Sidetree và ION không yêu cầu sử dụng mã thông báo, trình xác thực đáng tin cậy hoặc cơ chế đồng thuận bổ sung để hoạt động.</p><p>Thành phần đầu tiên là Web Node phi tập trung – <strong>Decentralized Web Node (DWN)</strong> .</p><p>DWN được mô tả là xây dựng kho dữ liệu giống như lưới cho phép một thực thể vận hành nhiều nút đồng bộ với cùng một trạng thái trên nhau.</p><p>DWN của Web5 sẽ được sử dụng để định vị dữ liệu được liên kết với một Định danh phân cấp – <strong>DID (Decentralized Identifier)</strong></p><p>DID là số nhận dạng vĩnh viễn duy nhất trên toàn cầu thường được sản xuất và đăng ký bằng mật mã và không yêu cầu cơ quan đăng ký tập trung.</p><p><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/web5-la-gi.png\" alt=\"web5 là gì\"><br>Thành phần quan trọng tiếp theo là Dịch vụ Nhận dạng Chủ quyền – Self-Sovereign Identity Service (SSIS) .</p><p>&nbsp;</p><p>Dịch vụ nhận dạng tự chủ (SSIS) là một dịch vụ quản lý danh tính phi tập trung cho phép các cá nhân và tổ chức kiểm soát danh tính kỹ thuật số của riêng họ. SSIS được xây dựng trên nền tảng blockchain và sử dụng các hợp đồng thông minh để cung cấp một cách bảo mật, phi tập trung và chống giả mạo để quản lý danh tính kỹ thuật số.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\" alt=\"Self-Sovereign Identity Service ssis web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg 770w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-300x281.jpeg 300w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-768x718.jpeg 768w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-750x701.jpeg 750w\" sizes=\"100vw\" width=\"770\"></a></p><p>Thành phần chính thứ ba là <strong>Self-Sovereign Identity </strong>SDK – nhận dạng có chủ quyền .</p><p><strong>Self-Sovereign Identity </strong>SDK&nbsp; là một bộ công cụ cho phép các nhà phát triển dễ dàng xây dựng các ứng dụng sử dụng các nguyên tắc nhận dạng tự có chủ quyền.</p><p>Nó được thiết kế để hoạt động với bất kỳ hệ thống quản lý danh tính nào và cung cấp một bộ công cụ và API để giúp các nhà phát triển tạo các ứng dụng cho phép người dùng kiểm soát dữ liệu của riêng họ.</p><h2>Từ PWA đến DWA</h2><p>PWA là Ứng dụng web cấp tiến (Progressive Web Apps) và bạn sử dụng chúng hàng ngày (Pinterest, Uber, Spotify). Chúng là những ứng dụng web sử dụng công nghệ web hiện đại để cung cấp trải nghiệm người dùng tương tự như trải nghiệm của ứng dụng gốc. PWA được thiết kế để đáp ứng 3 yếu tố: nhanh, đáng tin cậy và hấp dẫn.</p><p>Sử dụng các thành phần Web5 nói trên, Jack Dorsey đang tạo cơ sở hạ tầng để tạo DWA (Ứng dụng web phi tập trung).</p><p>Cấu trúc này sẽ cho phép các nhà phát triển tạo ra các ứng dụng có danh tính phi tập trung và khả năng lưu trữ dữ liệu, tất cả đều cung cấp cho người dùng toàn quyền kiểm soát thông tin cá nhân của mình.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\" alt=\"PWA DWA web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png 732w, https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5-300x148.png 300w\" sizes=\"100vw\" width=\"732\"></a></p><p>Ngay sau khi phát hành tài liệu Web5 trên Twitter, Jack đã mạnh dạn tuyên bố rằng đây “có thể sẽ là đóng góp quan trọng nhất của chúng tôi cho internet.”</p><p>&nbsp;</p><p>Tất nhiên chỉ có thời gian mới trả lời được liệu Web5 có bắt kịp hay không, nhưng điều này chắc chắn sẽ làm rung chuyển hàng tỷ người sẵn sàng đầu tư vào các ứng dụng Web3 của các ứng dụng như a16z và các VC khác.</p>",
+      "createAt": 2022,
+      "id": 1
+    },
+    {
+      "name": "Web Bán Hàng",
+      "img": "http://media.doisongphapluat.com/699/2020/10/13/thieu-gia-ha-thanh-cong-khai-tinh-moi-dan-mang-dung-hinh-truoc-nhan-sac-cuc-pham-3-vong-quyen-ru-dspl-6.jpg",
+      "shortdesc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
+      "desc": "Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.",
+      "categoryWorkId": "1",
+      "html": "<h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey's Block (trước đây là Square).</p><p><strong>Cựu Giám đốc điều hành Twitter – Jack Dorsey đã công bố một nền tảng mới trên Twitter có tên là ‘Web5’, là sự kết hợp của Web3 và Web 2.0, được xây dựng trên chuỗi khối Bitcoin. Nền tảng này hứa hẹn sẽ khắc phục sự cố bảo mật dữ liệu cá nhân. “Chúng tôi đấu tranh để bảo mật dữ liệu cá nhân với hàng trăm tài khoản và mật khẩu mà chúng tôi không thể nhớ. Trên web ngày nay, danh tính và dữ liệu cá nhân đã trở thành tài sản của các bên thứ ba,”, công ty đã thô ng báo trên Website chính thức.</strong></p><p>Vào ngày 10 tháng 6 năm 2022, đơn vị kinh doanh TBD của <a href=\"https://twitter.com/jack?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">Jack Dorsey</a> &nbsp;một công ty con của Block Inc., và là – CEO của Twitter thông báo họ đã bắt tay vào hành trình xây dựng “Web5”. Sau những lời chỉ trích rất công khai của Dorsey đối với Web3 và ‘những thiếu sót của nó, thật hợp lý khi doanh nhân lấy Bitcoin làm trung tâm lại bắt đầu xây dựng một web phi tập trung thực sự.Web5 nhằm tận dụng chuỗi khối của Bitcoin và cho phép người dùng toàn quyền kiểm soát dữ liệu và danh tính của họ.</p><h2>Web5 là gì?</h2><p><br>Web5 được phát triển bởi The Block Head (TBH), một trong những đơn vị kinh doanh Bitcoin tại Dorsey’s Block (trước đây là Square). Nền tảng mang lại danh tính và lưu trữ dữ liệu phi tập trung cho các ứng dụng. “Nó cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng thú vị trong khi trả lại quyền sở hữu dữ liệu và danh tính cho các cá nhân” – theo công ty.</p><p>&nbsp;</p><p>TBH giải thích cách Web5 muốn các cá nhân có khả năng “sở hữu dữ liệu của họ”. Ví dụ: giả sử AnonyViet nắm giữ một “ví kỹ thuật số” quản lý an toàn danh tính, dữ liệu và quyền của mình đối với các ứng dụng và kết nối bên ngoài. AnonyViet sử dụng ví của mình để đăng nhập vào một ứng dụng mạng xã hội phi tập trung mới. Tuy nhiên, vì AnonyViet đã kết nối với ứng dụng bằng danh tính phi tập trung của mình nên cô ấy không cần tạo hồ sơ và tất cả các kết nối, mối quan hệ và bài đăng mà AnonyViet tạo thông qua ứng dụng đều được lưu trữ với mình, trong nút web phi tập trung. Sử dụng Web5, AnonyViet có thể chuyển đổi ứng dụng bất cứ khi nào mà mình muốn, mang theo cá tính xã hội của cô ấy.</p><p>Trong một trường hợp khác, Bob, một người yêu âm nhạc và ghét bị giới hạn dữ liệu của mình cho một nhà cung cấp duy nhất. Nó buộc anh ta phải lặp đi lặp lại các danh sách phát và bài hát của mình trên các ứng dụng âm nhạc khác nhau. Rất may, có một cách giải quyết cho trường hợp này: Bob có thể giữ dữ liệu này trong nút web phi tập trung của mình. Bằng cách này, Bob có thể cấp cho bất kỳ ứng dụng âm nhạc nào quyền truy cập vào cài đặt và tùy chọn của anh ấy, cho phép anh ấy có trải nghiệm âm nhạc được cá nhân hóa của mình ở bất cứ đâu anh ấy chọn. Do đó, Web5 sẽ cung cấp cho người dùng quyền sở hữu dữ liệu của họ.</p><p>Được giới thiệu trong Google Tài liệu do Dorsey xuất bản, <strong>Web5</strong> là phép tính của từ <strong>Web 2 + Web 3 = Web 5</strong>. <a href=\"https://anonyviet.com/?s=Web+3\">Web3</a> đã đạt được động lực lớn vào năm 2021 với mục tiêu “mã hóa mọi thứ” và kết nối tài sản với các blockchain. Web5 có một cách tiếp cận khác, chỉ dựa vào một blockchain, Bitcoin và chỉ cho một trường hợp sử dụng duy nhất: identity – định danh, danh tính.</p><h2>Web5 hoạt động như thế nào?</h2><p>Tầm nhìn Web5 của TBD bao gồm một số thành phần phần mềm, khi kết hợp với nhau, cho phép các nhà phát triển tập trung vào việc tạo ra trải nghiệm người dùng phong phú đồng thời cho phép lưu trữ dữ liệu và nhận dạng phi tập trung trong các ứng dụng.</p><p>&nbsp;</p><p>Tất cả đều dựa trên giao thức Sidetree và ION không yêu cầu sử dụng mã thông báo, trình xác thực đáng tin cậy hoặc cơ chế đồng thuận bổ sung để hoạt động.</p><p>Thành phần đầu tiên là Web Node phi tập trung – <strong>Decentralized Web Node (DWN)</strong> .</p><p>DWN được mô tả là xây dựng kho dữ liệu giống như lưới cho phép một thực thể vận hành nhiều nút đồng bộ với cùng một trạng thái trên nhau.</p><p>DWN của Web5 sẽ được sử dụng để định vị dữ liệu được liên kết với một Định danh phân cấp – <strong>DID (Decentralized Identifier)</strong></p><p>DID là số nhận dạng vĩnh viễn duy nhất trên toàn cầu thường được sản xuất và đăng ký bằng mật mã và không yêu cầu cơ quan đăng ký tập trung.</p><p><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/web5-la-gi.png\" alt=\"web5 là gì\"><br>Thành phần quan trọng tiếp theo là Dịch vụ Nhận dạng Chủ quyền – Self-Sovereign Identity Service (SSIS) .</p><p>&nbsp;</p><p>Dịch vụ nhận dạng tự chủ (SSIS) là một dịch vụ quản lý danh tính phi tập trung cho phép các cá nhân và tổ chức kiểm soát danh tính kỹ thuật số của riêng họ. SSIS được xây dựng trên nền tảng blockchain và sử dụng các hợp đồng thông minh để cung cấp một cách bảo mật, phi tập trung và chống giả mạo để quản lý danh tính kỹ thuật số.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg\" alt=\"Self-Sovereign Identity Service ssis web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5.jpeg 770w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-300x281.jpeg 300w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-768x718.jpeg 768w, https://anonyviet.com/wp-content/uploads/2022/06/Self-Sovereign-Identity-Service-ssis-web5-750x701.jpeg 750w\" sizes=\"100vw\" width=\"770\"></a></p><p>Thành phần chính thứ ba là <strong>Self-Sovereign Identity </strong>SDK – nhận dạng có chủ quyền .</p><p><strong>Self-Sovereign Identity </strong>SDK&nbsp; là một bộ công cụ cho phép các nhà phát triển dễ dàng xây dựng các ứng dụng sử dụng các nguyên tắc nhận dạng tự có chủ quyền.</p><p>Nó được thiết kế để hoạt động với bất kỳ hệ thống quản lý danh tính nào và cung cấp một bộ công cụ và API để giúp các nhà phát triển tạo các ứng dụng cho phép người dùng kiểm soát dữ liệu của riêng họ.</p><h2>Từ PWA đến DWA</h2><p>PWA là Ứng dụng web cấp tiến (Progressive Web Apps) và bạn sử dụng chúng hàng ngày (Pinterest, Uber, Spotify). Chúng là những ứng dụng web sử dụng công nghệ web hiện đại để cung cấp trải nghiệm người dùng tương tự như trải nghiệm của ứng dụng gốc. PWA được thiết kế để đáp ứng 3 yếu tố: nhanh, đáng tin cậy và hấp dẫn.</p><p>Sử dụng các thành phần Web5 nói trên, Jack Dorsey đang tạo cơ sở hạ tầng để tạo DWA (Ứng dụng web phi tập trung).</p><p>Cấu trúc này sẽ cho phép các nhà phát triển tạo ra các ứng dụng có danh tính phi tập trung và khả năng lưu trữ dữ liệu, tất cả đều cung cấp cho người dùng toàn quyền kiểm soát thông tin cá nhân của mình.</p><p><a href=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\"><img src=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png\" alt=\"PWA DWA web5\" srcset=\"https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5.png 732w, https://anonyviet.com/wp-content/uploads/2022/06/PWA-DWA-web5-300x148.png 300w\" sizes=\"100vw\" width=\"732\"></a></p><p>Ngay sau khi phát hành tài liệu Web5 trên Twitter, Jack đã mạnh dạn tuyên bố rằng đây “có thể sẽ là đóng góp quan trọng nhất của chúng tôi cho internet.”</p><p>&nbsp;</p><p>Tất nhiên chỉ có thời gian mới trả lời được liệu Web5 có bắt kịp hay không, nhưng điều này chắc chắn sẽ làm rung chuyển hàng tỷ người sẵn sàng đầu tư vào các ứng dụng Web3 của các ứng dụng như a16z và các VC khác.</p>",
       "createAt": 2022,
       "id": 2
-    },
-    {
-      "name": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1561569134-cbf36e72bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryWorkId": "1",
-      "createAt": 2022,
-      "id": 3
-    },
-    {
-      "name": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1583038152192-544136533345?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MTQ4NTMxfHxlbnwwfHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryWorkId": "1",
-      "createAt": 2022,
-      "id": 4
-    },
-    {
-      "name": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/uploads/14116941824817ba1f28e/78c8dff1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MzMxNDQwfHxlbnwwfHx8fA%3D%3D&dpr=1&auto=format&fit=crop&w=294&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryWorkId": "1",
-      "createAt": 2022,
-      "id": 5
-    },
-    {
-      "name": "Nguyễn Văn Hải",
-      "img": "https://images.unsplash.com/photo-1595803601672-b42fa79557d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8MWRUZ3A4TUxfRFl8fGVufDB8fHx8&dpr=1&auto=format&fit=crop&w=294&q=60",
-      "shortdesc": "ádad",
-      "desc": "Hải Nguyễn Add",
-      "categoryWorkId": "1",
-      "createAt": 2022,
-      "id": 6
     }
   ],
   "categoryWorks": [

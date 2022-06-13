@@ -1,9 +1,9 @@
 
 <app-headeradmin></app-headeradmin>
 <div class="container">
-    <h2>Thêm POST</h2>
+    <h2>Edit POST</h2>
     
-    <form (ngSubmit)="onAddPost()">
+    <form (ngSubmit)="onEditPost()">
       <div class="form-group">
         <ckeditor [editor]="Editor" [(ngModel)]="post.html"  (ready)="onReady($event)" name="html" data="Hello, world!"></ckeditor>
       </div>
@@ -15,7 +15,7 @@
         <label for="usr">Img:</label>
         <input type="text" [(ngModel)]="post.img" name="img" class="form-control" id="usr">
       </div>
-      
+    
       <div class="form-group">
         <label for="usr">desc:</label>
         <input type="text" [(ngModel)]="post.desc" name="desc" class="form-control" id="usr">

@@ -8,20 +8,20 @@
             <th>#</th>
           <th>Name</th>
           <th>Img</th>
-          <th>Short desc</th>
+          <th>Desc</th>
           <th>Sửa</th>
           <th>Xoá</th>
           
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let work of works; let i = index">
+        <tr *ngFor="let post of posts; let i = index">
             <td>{{i+1}}</td>
-          <td>{{work.name}}</td>
-          <td><img src="{{work.img}}" width="80" alt=""></td>
-          <td>{{work.shortdesc}}</td>
-          <td><a class="btn-success" routerLink="/admin/works/{{work.id}}/edit">Sửa</a></td>
-          <td><button class="btn-success" (click)="onDel(work.id)">Xoá</button></td>
+          <td>{{post.name}}</td>
+          <td><img src="{{post.img}}" width="80" alt=""></td>
+          <td>{{post.desc}}</td>
+          <td><a class="btn-success" routerLink="/admin/blogs/{{post.id}}/edit">Sửa</a></td>
+          <td><button class="btn-success" (click)="onDel(post.id)">Xoá</button></td>
          
 
         </tr>

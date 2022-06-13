@@ -1,12 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-
+import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 @Component({
   selector: 'app-addpost',
   templateUrl: './addpost.component.html',
   styleUrls: ['./addpost.component.css']
 })
 export class AddpostComponent implements OnInit {
+  public onReady( editor:any ) {
+    editor.ui.getEditableElement().parentElement.insertBefore(
+        editor.ui.view.toolbar.element,
+        editor.ui.getEditableElement()
+    );
+}
+  public Editor = ClassicEditor;
   category:any
   constructor(
     private http:HttpClient

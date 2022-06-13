@@ -6,13 +6,13 @@
             <p>Recent posts</p>
           </div>
           <div class="view-all">
-            <a href="">View all</a>
+            <a routerLink="blog">View all</a>
           </div>
         </div>
         <div  class="list-post">
           <div *ngFor="let post of posts" class="post">
             <h3 class="heading-content">
-              <a href="">{{post.title}}</a>
+              <a routerLink="/blog/{{post.id}}">{{post.title}}</a>
             </h3>
             <div class="date_category">
               <span class="date"> {{post.createAt}} </span>
