@@ -170,6 +170,9 @@ ul li {
 .list-works .date {
   font-size: 18px;
 }
+.list-works img {
+  border-radius: 6px;
+}
 .list-works  .category{
   font-size: 20px;
 }

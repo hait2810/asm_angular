@@ -5,6 +5,9 @@
 .content-work .title-work { 
   font-size: 44px;
 }
+.list-works img {
+  border-radius: 6px;
+}
 @media screen and (max-width: 374.9px) {
   
       .work, .title-work {
