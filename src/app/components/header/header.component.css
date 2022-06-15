@@ -278,3 +278,51 @@ ul li {
 .add-color {
   color: #FF6464 !important;
 }
+@media screen and (max-width: 768px) {
+  .about {
+    order: 2;
+  }
+  .avatar {
+    order: 1;
+  }
+  .avatar {
+    margin: 20px auto;
+  }
+  .infomation {
+    width: 500px;
+    display: flex;
+    margin-top: 40px !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .top-nav li {
+    display: none;
+    
+  }
+  .top-navresponsive a {
+      font-weight: bold !important;
+  }
+  .top-nav .icon {
+    display: block ;
+  }
+}
+.logout {
+   border: none;
+   background-color: #fff;
+   font-weight: 500;
+   
+}
+.subnav {
+  display: none !important;
+}
+.top-nav li:hover .subnav {
+  display: flex !important;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+      width: 575px !important;
+    }
+}

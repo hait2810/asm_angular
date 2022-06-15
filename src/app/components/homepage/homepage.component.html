@@ -19,7 +19,7 @@
             </h3>
             <div class="date_category">
               <span class="date">{{work.createAt}}</span>
-              <span class="category">{{work.categoryWork.name}}</span>
+              <span class="category"><a routerLink="/categoryworks/{{work.categoryWork.id}}">{{work.categoryWork.name}}</a></span>
             </div>
             <p class="text-desc">
               {{work.desc}}

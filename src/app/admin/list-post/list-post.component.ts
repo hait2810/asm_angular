@@ -7,17 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list-post.component.css']
 })
 export class ListPostComponent implements OnInit {
-    posts:any
+    posts: any[] = []
   constructor(
     private http: HttpClient
   ) { }
       onDel(id:number) {
-        this.http.delete("http://localhost:3001/posts/" + id).subscribe((data) => {
-          
+        const confirm = window.confirm("Bạn có chắc chắn muốn xoá không?");
+        if(confirm) { 
+          this.http.delete("http://localhost:3001/posts/" + id).subscribe((data) => {
+          this.posts = this.posts.filter(item => item.id !== id)
       })
+        }
       }
   ngOnInit(): void {
-    this.http.get("http://localhost:3001/posts").subscribe((data) => {
+    this.getPost()
+  }
+  getPost() {
+    this.http.get<any[]>("http://localhost:3001/posts").subscribe((data) => {
         this.posts = data
     })
   }

@@ -20,8 +20,8 @@
           <td>{{post.name}}</td>
           <td><img src="{{post.img}}" width="80" height="50" alt=""></td>
           <td>{{post.desc}}</td>
-          <td><a class="btn-success" routerLink="/admin/blogs/{{post.id}}/edit">Sửa</a></td>
-          <td><button class="btn-success" (click)="onDel(post.id)">Xoá</button></td>
+          <td><button class="btn btn-info" routerLink="/admin/blogs/{{post.id}}/edit">Sửa</button></td>
+          <td><button class="btn btn-info" (click)="onDel(post.id)">Xoá</button></td>
          
 
         </tr>

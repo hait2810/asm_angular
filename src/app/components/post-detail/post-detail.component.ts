@@ -17,8 +17,11 @@ export class PostDetailComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.router.snapshot.params['id']
-    this.http.get("http://localhost:3001/posts/"+ this.id).subscribe((data) => {
+    const urlapi = "http://localhost:3001/posts/"+this.id+"?_expand=categoryPost";
+    this.http.get(urlapi).subscribe((data) => {
       this.post = data
+      console.log(data);
+      
     })
   }
 

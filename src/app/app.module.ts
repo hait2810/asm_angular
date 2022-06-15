@@ -24,6 +24,11 @@ import { EditWorkComponent } from './admin/edit-work/edit-work.component';
 import { EditPostComponent } from './admin/edit-post/edit-post.component';
 import { ListPostComponent } from './admin/list-post/list-post.component';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { GetCategoryComponent } from './components/get-category/get-category.component';
+import { GetCategoryPostComponent } from './components/get-category-post/get-category-post.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -55,6 +60,11 @@ import { PostDetailComponent } from './components/post-detail/post-detail.compon
     EditPostComponent,
     ListPostComponent,
     PostDetailComponent,
+    SignupComponent,
+    SigninComponent,
+    GetCategoryComponent,
+    GetCategoryPostComponent,
+    ContactComponent,
     
  
   

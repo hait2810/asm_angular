@@ -1,0 +1,22 @@
+.content-work {
+    width: 676px;
+    margin: 104px auto 109px auto;
+  }
+  .content-work .title-work { 
+    font-size: 44px;
+  }
+  .list-works img {
+    border-radius: 6px;
+  }
+  @media screen and (max-width: 374.9px) {
+    
+        .work, .title-work {
+            width: 344px !important;
+            padding: 10px 10px;
+            border: none !important;
+        }
+        .content-work {
+            
+            margin: 20px 0 !important;
+        }
+  }

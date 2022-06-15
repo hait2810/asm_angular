@@ -1,0 +1,32 @@
+<app-header></app-header>
+<div class="container">
+  <div class="content-work">
+      <h2 class="title-work">
+          Post
+      </h2>
+      <div class="list-works">
+          <div *ngFor="let post of posts" class="work">
+              <img
+                src="{{post.img}}"
+                alt=""
+                class="logo"  width="246" height="180"
+              />
+              <div class="text-content">
+                <h3 class="text-heading">
+                  <a routerLink="/blog/{{post.id}}"> {{post.name}}</a>
+                </h3>
+                <div class="date_category">
+                  <span class="date">{{post.createAt}}</span>
+                
+                </div>
+                <p class="text-desc">
+                  {{post.desc}}
+                </p>
+              </div>
+            </div>
+           
+          
+
+      </div>
+  </div>
+</div>

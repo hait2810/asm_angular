@@ -1,0 +1,23 @@
+
+
+<app-header></app-header>
+<div class="container">
+    <h2>Đăng ký</h2>
+    
+    <form (ngSubmit)="onSignup()">
+     
+      <div class="form-group">
+        <label for="usr">Email:</label>
+        <input type="text" [(ngModel)]="user.email" name="email" class="form-control" id="usr">
+      </div>
+     
+      
+      <div class="form-group">
+        <label for="usr">Password:</label>
+        <input type="text" [(ngModel)]="user.password" name="password" class="form-control" id="usr">
+      </div>
+   
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <button routerLink="/signin" class="btn btn-success mt-5">Đã có tài khoản? Đăng nhập</button>
+  </div>

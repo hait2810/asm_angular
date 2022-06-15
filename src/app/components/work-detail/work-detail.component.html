@@ -2,8 +2,19 @@
 <div class="work-detail">
     <div class="container">
         <div class="content-work_detail">
+            <h1 class="title">
+               {{work.name}}
+            </h1>
+            <div class="date-category">
+                <span class="date">
+                    {{work.createAt}}
+                </span>
+                <span class="category">  
+                    <a routerLink="/categoryworks/{{work.categoryWork.id}}"> {{work.categoryWork.name}}</a>
+                </span>
+            </div>
             <div innerHTML="{{work.html}}"></div>
             
-        </div>
+       
     </div>
 </div>

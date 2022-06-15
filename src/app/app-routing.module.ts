@@ -8,10 +8,16 @@ import { EditPostComponent } from './admin/edit-post/edit-post.component';
 import { EditWorkComponent } from './admin/edit-work/edit-work.component';
 import { ListPostComponent } from './admin/list-post/list-post.component';
 import { ListWorkComponent } from './admin/list-work/list-work.component';
+import { AuthGuardGuard } from './components/auth-guard.guard';
 
 import { BlogComponent } from './components/blog/blog.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { GetCategoryPostComponent } from './components/get-category-post/get-category-post.component';
+import { GetCategoryComponent } from './components/get-category/get-category.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { PostDetailComponent } from './components/post-detail/post-detail.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { SignupComponent } from './components/signup/signup.component';
 import { WorkDetailComponent } from './components/work-detail/work-detail.component';
 import { WorksComponent } from './components/works/works.component';
 
@@ -22,7 +28,13 @@ const routes: Routes = [
     {path: "work", component: WorksComponent},
     {path: "work/:id", component: WorkDetailComponent},
     {path: "blog/:id", component: PostDetailComponent},
-    {path: "admin", children: [
+    {path: "signup", component:SignupComponent},
+    {path: "signin", component:SigninComponent},
+    {path: "categoryworks/:id", component: GetCategoryComponent},
+    {path: "categoryposts/:id", component: GetCategoryPostComponent},
+    {path: "contact", component: ContactComponent},
+    
+    {path: "admin", canActivate: [AuthGuardGuard], children: [
       {path: "", redirectTo: "works", pathMatch: "full"},
       {path: "works", component: ListWorkComponent},
       {path: "works/addcategory", component: AddCategoryWorkComponent},

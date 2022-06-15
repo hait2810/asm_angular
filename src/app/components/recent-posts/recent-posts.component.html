@@ -16,7 +16,7 @@
             </h3>
             <div class="date_category">
               <span class="date"> {{post.createAt}} </span>
-              <span class="category"> {{post.categoryPost.name}} </span>
+              <span class="category"> <a routerLink="/categoryposts/{{post.categoryPost.id}}"> {{post.categoryPost.name}}</a> </span>
             </div>
             <p class="desc">
               {{post.desc}}

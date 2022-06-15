@@ -182,6 +182,9 @@ ul li {
 .work .logo {
   width: 100%;
 }
+.date_category a {
+  color: gray;
+}
 .work .date_category {
   margin: 19px 0;
 }
@@ -284,4 +287,9 @@ ul li {
 
 .add-color {
   color: #FF6464 !important;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 575px !important;
+  }
 }

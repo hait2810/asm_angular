@@ -18,7 +18,7 @@ export class AboutComponent implements OnInit {
     this.getAbout()
   }
   getAbout() {
-      return this.http.get("http://localhost:3001/users/1").subscribe((data) => {
+      return this.http.get("http://localhost:3001/info/1").subscribe((data) => {
         this.about = data
         
       })

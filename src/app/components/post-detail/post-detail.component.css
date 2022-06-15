@@ -1,6 +1,13 @@
 .work-detail {
     margin: 50px 0;
 }
+a{
+    text-decoration: none;
+}
+.category a {
+    color: gray;
+}
+
 .content-work_detail {
     width: 681px;
     margin: 0 auto !important;

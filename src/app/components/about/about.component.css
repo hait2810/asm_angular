@@ -209,6 +209,36 @@ ul li {
 .top-nav .icon {
   display: none;
 }
+@media screen and (max-width: 768px) {
+  .about {
+    order: 2;
+  }
+  .avatar {
+    order: 1;
+  }
+  .avatar {
+    margin: 20px auto;
+  }
+  .infomation {
+    width: 500px;
+    display: flex;
+    margin-top: 40px !important;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .top-nav li {
+    display: none;
+    
+  }
+  .top-navresponsive a {
+      font-weight: bold !important;
+  }
+  .top-nav .icon {
+    display: block ;
+  }
+}
 @media screen and (max-width: 374.9px){
   .top-nav li {
     display: none;

@@ -11,6 +11,16 @@
             <li><a routerLink="/work">Works</a></li>
             <li><a routerLink="/blog">Blog</a></li>
             <li><a routerLink="">Contact</a></li>
+            <div *ngIf="user as value; else elseuser">
+              <li class="navl"><a routerLink="/signin">{{value.user.email}}</a></li>
+              <ul class="subnav">
+                <div *ngIf="user.user.id == 1">  <li><button routerLink="/admin" class="logout">Vào trang quản trị</button></li></div>
+
+                <li><button class="logout">Đăng xuất</button></li>
+              </ul>
+            </div>
+            <ng-template #elseuser>Hj</ng-template>
+            
             
           </ul>
         </div>

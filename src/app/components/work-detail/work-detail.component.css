@@ -5,6 +5,10 @@
     width: 681px;
     margin: 0 auto !important;
 }
+.category a {
+    color: gray;
+    text-decoration: none;
+}
 .content-work_detail .title {
     font-size: 34px;
     width: 506px;

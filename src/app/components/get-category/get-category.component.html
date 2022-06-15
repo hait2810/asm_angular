@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="container">
+  <div class="content-work">
+      <h2 class="title-work">
+          Work
+      </h2>
+      <div class="list-works">
+          <div *ngFor="let work of works" class="work">
+              <img
+                src="{{work.img}}"
+                alt=""
+                class="logo"  width="246" height="180"
+              />
+              <div class="text-content">
+                <h3 class="text-heading">
+                  <a routerLink="/work/{{work.id}}"> {{work.title}}</a>
+                </h3>
+                <div class="date_category">
+                  <span class="date">{{work.createAt}}</span>
+                </div>
+                <p class="text-desc">
+                  {{work.desc}}
+                </p>
+              </div>
+            </div>
+           
+          
+
+      </div>
+  </div>
+</div>
