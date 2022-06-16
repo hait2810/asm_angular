@@ -27,9 +27,9 @@ export class SigninComponent implements OnInit {
   
   
   onSignin() {
-        this.http.post("http://localhost:3001/signin", this.user).subscribe((data) => {
-              localStorage.setItem("user", JSON.stringify(data))
-              this.router.navigate([`/`])
-        })
+    this.http.post("http://localhost:3001/signin", this.user).subscribe((data) => {
+      localStorage.setItem("user", JSON.stringify(data))
+      this.router.navigate([`/`])
+})
   }
 }

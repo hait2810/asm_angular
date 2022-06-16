@@ -21,8 +21,8 @@
         <input type="text" [(ngModel)]="post.desc" name="desc" class="form-control" id="usr">
       </div>
       <div class="form-group">
-            <select *ngFor="let cate of category" [(ngModel)]="post.categoryPostId"  name="categoryPostId" id="">
-                <option   value="{{cate.id}}">{{cate.name}}</option>
+            <select  [(ngModel)]="post.categoryPostId"  name="categoryPostId" id="">
+                <option  *ngFor="let cate of category" value="{{cate.id}}">{{cate.name}}</option>
             </select>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>

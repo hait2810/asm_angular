@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import * as ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 @Component({
   selector: 'app-edit-post',
@@ -27,7 +27,8 @@ export class EditPostComponent implements OnInit {
   id:any
   constructor(
     private http:HttpClient,
-    private router: ActivatedRoute
+    private router: ActivatedRoute,
+    private routerlink:Router
   ) { }
   onEditPost() {
     const formData = new FormData();
@@ -38,8 +39,10 @@ export class EditPostComponent implements OnInit {
       const post = {
         ...this.post, img: this.linkimg.url
       }
+      console.log(post);
+      
       this.http.put("http://localhost:3001/posts/"+ this.id, post).subscribe((data) => {
-          
+            this.routerlink.navigate(['/admin/blogs'])
         })
     })
         
