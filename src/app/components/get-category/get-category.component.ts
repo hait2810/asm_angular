@@ -17,9 +17,11 @@ export class GetCategoryComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.router.snapshot.params['id']
-    const api = "http://localhost:3001/categoryPosts/"+this.id+"/posts";
+    const api = "http://localhost:3001/categoryWorks/"+this.id+"/works";
     this.http.get(api).subscribe((data) => {
     this.works = data
+   
+    
     })
   }
 
