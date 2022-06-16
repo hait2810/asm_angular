@@ -314,11 +314,20 @@ ul li {
    font-weight: 500;
    
 }
-.subnav {
-  display: none !important;
+.top-nav li {
+  position: relative;
 }
-.top-nav li:hover .subnav {
+#subnav button:hover {
+    color: #00A8CC;
+}
+#subnav {
+  display: none !important;
+  position: absolute;
+  left: 0;
+}
+.top-nav li:hover #subnav {
   display: flex !important;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 576px) {

@@ -7,6 +7,10 @@
 }
 .list-works img {
   border-radius: 6px;
+} 
+.date_category a {
+  color: gray;
+  text-decoration: none;
 }
 @media screen and (max-width: 374.9px) {
   

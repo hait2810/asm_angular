@@ -9,7 +9,7 @@
             </h2>
             <div class="date-category">
                 <span class="date">{{blog.createAt}}</span>
-                <span class="category">{{blog.categoryPost.name}}</span>
+                <span class="category"><a routerLink="/categoryposts/{{blog.categoryPost.id}}">{{blog.categoryPost.name}}</a></span>
             </div>
             <div class="desc-blog">
                 {{blog.desc}}

@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
-  constructor() { }
+  contact:any = {
+    title: "",
+    fullname: "",
+    email: "",
+    content: ""
+  }
+  constructor(
+    private http:HttpClient
+  ) { }
 
   ngOnInit(): void {
+  }
+  onContact() {
+      this.http.post("http://localhost:3001/contacts", this.contact).subscribe((data) => {
+          alert("Gửi thành công")
+      })
+      
   }
 
 }

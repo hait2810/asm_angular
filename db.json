@@ -77,6 +77,50 @@
       "email": "haibrave@gmail.com",
       "password": "$2a$10$mrxjBg8wEUx34d5oGrHDV.PofWC2zI/0op7Bn8reAlo61hS8bEfuS",
       "id": 1
+    },
+    {
+      "email": "hainvph14924@fpt.edu.vn",
+      "password": "$2a$10$AoB66.4obOdUnw5MFRmnh.ST8cJYecxV6yPokRUrNdUEPuX7.z2Ze",
+      "id": 2
+    },
+    {
+      "email": "haibrave1@gmail.com",
+      "password": "$2a$10$Nncz4CXUEJlxwhM5KUGYHuKO7B836mYWoubMi7u6yGITTxUOnhYo2",
+      "id": 3
+    },
+    {
+      "email": "haiibong2001@gmail.com",
+      "password": "$2a$10$Pd0RVVrBYVsXd3MK0wtzCuHGrKOquQtKEcTwatWDrTSnURBSjVsQu",
+      "id": 4
+    },
+    {
+      "email": "autoliker.men@gmail.com",
+      "password": "$2a$10$6mUZ070qzLQ0lHk6jOwGceFsNNvLJaRmiy.UMOO8S36Vz64ae5pwa",
+      "id": 5
+    },
+    {
+      "email": "admin2@gmail.com",
+      "password": "$2a$10$6iWpodOq/fi0C.6rfdNtmOF/eQ7a4Ec/bJre5LuUgSlyQrcanqbxq",
+      "id": 6
+    },
+    {
+      "email": "autoliker.me1n@gmail.com",
+      "password": "$2a$10$PC1NcXeZ283W/R0LZZhClOKliTmZjGQ7Q69STAL73Nsc1p3q1SxrC",
+      "id": 7
+    },
+    {
+      "email": "haibrave5@gmail.com",
+      "password": "$2a$10$fz0/PYh.YMNlAoRJ/aGZj.wxHpHFssWqphwMcVSvGeYo2wobPFcAy",
+      "id": 8
+    }
+  ],
+  "contacts": [
+    {
+      "title": "Nguyễn Văn Hải",
+      "fullname": "Nguyễn Văn Hải",
+      "email": "hainvph14924@fpt.edu.vn",
+      "content": "\nSince we do not have any page to link it to, and we do not want to get a \"404\" message, we put # as the link in our examples. It should be a real URL to a specific page.",
+      "id": 1
     }
   ]
 }

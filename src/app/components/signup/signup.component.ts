@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -12,7 +13,9 @@ export class SignupComponent implements OnInit {
     password: ""
   }
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private toastr: ToastrService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -20,6 +23,9 @@ export class SignupComponent implements OnInit {
   onSignup() {
       this.http.post("http://localhost:3001/signup",this.user).subscribe((data) => {
             console.log(this.user);
+            this.toastr.success("Đăng ký thành công")
+            alert("Đăng ký thành công")
+            this.router.navigate([`/signin`])
             
       })
   }

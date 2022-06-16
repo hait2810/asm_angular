@@ -10,16 +10,18 @@
             <li><a routerLink="/">Home</a></li>
             <li><a routerLink="/work">Works</a></li>
             <li><a routerLink="/blog">Blog</a></li>
-            <li><a routerLink="">Contact</a></li>
+            <li><a routerLink="/contact">Contact</a></li>
             <div *ngIf="user as value; else elseuser">
-              <li class="navl"><a routerLink="/signin">{{value.user.email}}</a></li>
-              <ul class="subnav">
-                <div *ngIf="user.user.id == 1">  <li><button routerLink="/admin" class="logout">Vào trang quản trị</button></li></div>
-
-                <li><button class="logout">Đăng xuất</button></li>
-              </ul>
+              <li class="navl"><a routerLink="/signin">{{value.user.email}}</a>
+              
+                <ul id="subnav">
+                  <div *ngIf="user.user.id == 1">  <li><button routerLink="/admin" class="logout">Vào trang quản trị</button></li></div>
+  
+                  <li><button (click)="onLogout()" class="logout">Đăng xuất</button></li>
+                </ul></li>
+             
             </div>
-            <ng-template #elseuser>Hj</ng-template>
+            <ng-template #elseuser> <li><a routerLink="/signin">Account</a></li></ng-template>
             
             
           </ul>

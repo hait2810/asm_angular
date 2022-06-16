@@ -6,6 +6,7 @@ import { AddWorkComponent } from './admin/add-work/add-work.component';
 import { AddpostComponent } from './admin/addpost/addpost.component';
 import { EditPostComponent } from './admin/edit-post/edit-post.component';
 import { EditWorkComponent } from './admin/edit-work/edit-work.component';
+import { ListContactComponent } from './admin/list-contact/list-contact.component';
 import { ListPostComponent } from './admin/list-post/list-post.component';
 import { ListWorkComponent } from './admin/list-work/list-work.component';
 import { AuthGuardGuard } from './components/auth-guard.guard';
@@ -43,7 +44,8 @@ const routes: Routes = [
       {path: "blogs/addcategory", component: AddCategoryBlogComponent},
       {path: "blogs", component: ListPostComponent},
       {path: "blogs/addpost", component: AddpostComponent},
-      {path: "blogs/:id/edit", component: EditPostComponent}
+      {path: "blogs/:id/edit", component: EditPostComponent},
+      {path: "contacts",component: ListContactComponent}
     ]}
 ];
 

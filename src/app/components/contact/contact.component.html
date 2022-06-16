@@ -1,1 +1,44 @@
-<p>contact works!</p>
+<app-header></app-header>
+<div class="container">
+    <div class="form-contact">
+       
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.703475600767!2d105.75013191476353!3d21.044547485989774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454ec0af60515%3A0x580f19630aecbb3c!2zNSBOZ8O1IDIsIFBow7pjIERp4buFbiwgQuG6r2MgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1655350833364!5m2!1svi!2sus" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+            <h2>Liên hệ</h2>
+            <form #formContact="ngForm" (ngSubmit)="onContact()">
+                <div class="control-form">
+                    <input type="text" #title="ngModel" required [(ngModel)]="contact.title" placeholder="Tiêu đề" name="title" id="title-form">
+                    <div *ngIf="title.errors">
+                        <div *ngIf="title.errors?.['required'] && (title.dirty || title.touched)">
+                            Title is required
+                        </div>
+                    </div>
+                </div>
+                <div class="control-form">
+                    <input type="text" [(ngModel)]="contact.fullname" #fullname="ngModel" required name="fullname" placeholder="Full name" id="">
+                   
+                    <input type="email" #email="ngModel" required [(ngModel)]="contact.email" required placeholder="Email" name="email" id="">
+                    
+                </div>
+                <div *ngIf="fullname.errors">
+                    <div *ngIf="fullname.errors?.['required'] && (fullname.dirty || fullname.touched)">
+                        Name is required
+                    </div>
+                </div>
+                <div *ngIf="email.errors">
+                    <div *ngIf="email.errors?.['required'] && (email.dirty || email.touched)">
+                        Email is required
+                    </div>
+                </div>
+                <div class="control-form">
+                    <textarea name="content" [(ngModel)]="contact.content"  id="" cols="30" rows="3"></textarea>
+                </div>
+                <div class="control-form">
+                    <button type="submit" [disabled]="!formContact.valid" class="btn btn-success">Gửi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

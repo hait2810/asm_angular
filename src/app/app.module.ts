@@ -29,11 +29,9 @@ import { SigninComponent } from './components/signin/signin.component';
 import { GetCategoryComponent } from './components/get-category/get-category.component';
 import { GetCategoryPostComponent } from './components/get-category-post/get-category-post.component';
 import { ContactComponent } from './components/contact/contact.component';
-
-
-
-
-
+import {BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { ToastrModule } from 'ngx-toastr';
+import { ListContactComponent } from './admin/list-contact/list-contact.component';
 
 
 
@@ -65,6 +63,7 @@ import { ContactComponent } from './components/contact/contact.component';
     GetCategoryComponent,
     GetCategoryPostComponent,
     ContactComponent,
+    ListContactComponent,
     
  
   
@@ -76,7 +75,7 @@ import { ContactComponent } from './components/contact/contact.component';
     HttpClientModule,
     FormsModule,
     CKEditorModule,
-    
+    ToastrModule.forRoot()
     
   ],
   providers: [],

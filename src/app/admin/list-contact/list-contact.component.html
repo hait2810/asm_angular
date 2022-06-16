@@ -1,0 +1,29 @@
+<app-headeradmin></app-headeradmin>
+
+<div class="container">
+    <h2>Liên hệ</h2>
+          
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Content</th>
+          <th>Xoá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contact of contacts; let i = index">
+          <td>{{i+1}}</td>
+          <td>{{contact.title}}</td>
+          <td>{{contact.fullname}}</td>
+          <td>{{contact.email}}</td>
+          <td>{{contact.content}}</td>
+          <td><button type="submit" (click)="onDelete(contact.id)" class="btn btn-success">Xoá</button></td>
+        </tr>
+       
+      </tbody>
+    </table>
+  </div>
